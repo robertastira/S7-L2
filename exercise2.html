@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NotepadJS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <html>
+    <head>
+      <title>Space Clicker</title>
+    </head>
+
+    <body>
+      <script type="text/javascript">
+        var clicks = 0;
+        function hello() {
+          clicks += 1;
+          document.getElementById("clicks").innerHTML = clicks;
+        }
+      </script>
+      <button type="button" onclick="hello()">Click me</button>
+      <p>Clicks: <a id="clicks">0</a></p>
+      <script src="./exercise2.js"></script>
+    </body>
+  </html>
+</html>
